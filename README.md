@@ -16,7 +16,7 @@ Returns an object **{packageName, version, packagePath, refName}** if **packageN
 Returns a **packageList** array containing **{packageName, version, packagePath, refName}** for each package found on **packagesPath**.
 
 ### `getPackageInfo(packagesPath, [refName])`
-Returns an object **{packageName, version, packagePath, refName}** if **packageName** contains a valid package. **refName** is optional and used for package location only when used on **findPackage**.
+Returns an object **{packageName, version, packagePath, refName}** if **packagePath** contains a valid package. **refName** is optional and used for package location only when used on **findPackage**.
 
 ### `getPackageFromPath(packagePath)`
 Return an object **{packageName, version, packagePath, refName}** if **packagesPath** contains a valid package on its directory hierarchy.
