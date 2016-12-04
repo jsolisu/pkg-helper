@@ -14,6 +14,7 @@
   },
   "description": "Package helper for npm",
   "dependencies": {
-    "fs-plus": "^2.9.3"
+    "fs-plus": "^2.9.3",
+    "validate-npm-package-name": "^2.2.2"
   }
 }
